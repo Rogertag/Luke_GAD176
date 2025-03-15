@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "GAD_176_Project_1_Luke.sln"
+    "dotnet.defaultSolution": "GAD_176_Pro_1.sln"
 }
