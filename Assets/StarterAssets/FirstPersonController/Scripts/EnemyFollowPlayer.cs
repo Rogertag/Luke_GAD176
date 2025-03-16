@@ -26,7 +26,6 @@ public class EnemyFollowPlayer : MonoBehaviour
     void AddVectors()
     {
       transform.position += new Vector3(0, 0, 1);
-
     }
     
     

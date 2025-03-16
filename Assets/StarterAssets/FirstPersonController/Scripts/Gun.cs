@@ -10,7 +10,7 @@ public class Gun : MonoBehaviour
 
     // Update is called once per frame
     
-    void Update ()
+    void Update()
     {
         gameObject.GetComponent<Renderer>().material.color = Color.cyan;
         if (Input.GetButtonDown("Fire1"))
@@ -19,7 +19,7 @@ public class Gun : MonoBehaviour
         }
     }
 
-    void Shoot ()
+    void Shoot()
     {
         RaycastHit hit; // caluclating the hit info for the ray cast
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))

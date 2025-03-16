@@ -13,6 +13,7 @@ public class AssaultRifle : Gun
     // Update is called once per frame
     void Update()
     {
+        gameObject.GetComponent<Renderer>().material.color = Color.red;
          if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate; // this will divied our fire rate to be able to shoot in intervals

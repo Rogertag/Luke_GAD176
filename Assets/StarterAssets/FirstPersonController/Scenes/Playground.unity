@@ -989,6 +989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d578f1e41ce30043adcbd8641c2bb35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedWeapon: 0
 --- !u!1 &1028513131
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,8 +1826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18e294a4a42eace4384489544ecdb1ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
-  range: 50
+  damage: 3
+  range: 100
   fpsCam: {fileID: 60889539378096551}
   fireRate: 15
 --- !u!1001 &2084445384
